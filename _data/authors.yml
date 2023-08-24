@@ -5,12 +5,12 @@ AIBS:
   website     : "/"
   avatar      : "/"
   links:
-    - label: "About"
-      url: /about/
-    - label: "Data"
+    - label: "Overview"
+      url: /overview/
+    - label: "Benchmark data"
       url: /data/
-    - label: "Tasks"
-      url: /tasks/
+    - label: "Mapping algorithms"
+      url: /algorithms/
     - label: "Evaluation"
       url: /evaluation/
     # - label: "Leaderboard"

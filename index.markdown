@@ -1,12 +1,10 @@
 ---
-title: "Model report cards"
+title: "Mapping algorithm benchmarking"
 layout: single
 classes: wide
 author_profile: true
 author: AIBS
 ---
-
-# Report cards for mapping algorithms
 
 ## Overview
 

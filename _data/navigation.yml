@@ -1,10 +1,10 @@
 main:
-  - title: "About"
-    url: /about/
-  - title: "Data"
+  - title: "Overview"
+    url: /overview/
+  - title: "Benchmark data"
     url: /data/
-  - title: "Tasks"
-    url: /tasks/
+  - title: "Mapping algorithms"
+    url: /algorithms/
   - title: "Evaluation"
     url: /evaluation/
   # - title: "Leaderboard"
