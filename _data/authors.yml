@@ -1,7 +1,7 @@
 # /_data/authors.yml
 ReportCards:
-  name        : "ReportCards"
-  bio         : "**Mapping Algorithms**"
+  name        : "Report Cards"
+  bio         : "*for: * **Mapping Algorithms**
   website     : "/"
   avatar      : "/assets/logo_mapping.png"
   links:
