@@ -10,7 +10,7 @@ In summary, `HANN` was able to achieve **strong accuracy** at **class, neighborh
     - Inputs `X` are log(CPM) normalized expression values of marker genes.
     - Hierarchy was encoded by Class, Neighborhood, Subclass, Cluster.
     - `Confidence` values were derived via bootstraping.
- - Runtime: 0.77 Hours
+ - Runtime: 17.41 Hours
  - Version: X.Y.Z
  - Repository: [TBD](TBD)
  - Publication: --
@@ -56,18 +56,18 @@ Cluster | 0.711
 <summary> Class level metrics: </summary>
 
 1. Label-wise F1-score<br>
-<img align='center' style="padding:10px 0px 10px 0px; border-radius: 0%" src="../assets/Mouse_WB/HANN/Ground_truth_class_HANN_WB_class_F1_score.png"/>
+<img align='center' style="padding:10px 0px 10px 0px; border-radius: 0%" src="../assets/Mouse_WB/HANN_FindMarkers/Ground_truth_class_HANN_WB_class_F1_score.png"/>
 
 2. Confidence values for correctly and incorrectly assigned labels<br>
-<img align='center' style="padding:10px 0px 10px 0px; border-radius: 0%" src="../assets/Mouse_WB/HANN/Ground_truth_class_HANN_WB_class_conf_box.png"/>
+<img align='center' style="padding:10px 0px 10px 0px; border-radius: 0%" src="../assets/Mouse_WB/HANN_FindMarkers/Ground_truth_class_HANN_WB_class_conf_box.png"/>
 
 3. Label-wise recall<br>
-<img align='center' style="padding:10px 0px 10px 0px; border-radius: 0%" src="../assets/Mouse_WB/HANN/Ground_truth_class_HANN_WB_class_recall.png"/>
+<img align='center' style="padding:10px 0px 10px 0px; border-radius: 0%" src="../assets/Mouse_WB/HANN_FindMarkers/Ground_truth_class_HANN_WB_class_recall.png"/>
 
 4. Label-wise precision<br>
-<img align='center' style="padding:10px 0px 10px 0px; border-radius: 0%" src="../assets/Mouse_WB/HANN/Ground_truth_class_HANN_WB_class_precision.png"/>
+<img align='center' style="padding:10px 0px 10px 0px; border-radius: 0%" src="../assets/Mouse_WB/HANN_FindMarkers/Ground_truth_class_HANN_WB_class_precision.png"/>
 
-5. Confusion matrix (row-normalized)<br><img align='center' style="padding:10px 0px 10px 0px; border-radius: 0%" src="../assets/Mouse_WB/HANN/Ground_truth_class_HANN_WB_class_conf_mat.png"/>
+5. Confusion matrix (row-normalized)<br><img align='center' style="padding:10px 0px 10px 0px; border-radius: 0%" src="../assets/Mouse_WB/HANN_FindMarkers/Ground_truth_class_HANN_WB_class_conf_mat.png"/>
 
 </details>
 
@@ -75,19 +75,19 @@ Cluster | 0.711
 <summary> Neighborhood level metrics: </summary>
 
 1. Label-wise F1-score<br>
-<img align='center' style="padding:10px 0px 10px 0px; border-radius: 0%" src="../assets/Mouse_WB/HANN/Ground_truth_neighborhood_HANN_WB_neighborhood_F1_score.png"/>
+<img align='center' style="padding:10px 0px 10px 0px; border-radius: 0%" src="../assets/Mouse_WB/HANN_FindMarkers/Ground_truth_neighborhood_HANN_WB_neighborhood_F1_score.png"/>
 
 2. Confidence values for correctly and incorrectly assigned labels<br>
-<img align='center' style="padding:10px 0px 10px 0px; border-radius: 0%" src="../assets/Mouse_WB/HANN/Ground_truth_neighborhood_HANN_WB_neighborhood_conf_box.png"/>
+<img align='center' style="padding:10px 0px 10px 0px; border-radius: 0%" src="../assets/Mouse_WB/HANN_FindMarkers/Ground_truth_neighborhood_HANN_WB_neighborhood_conf_box.png"/>
 
 3. Label-wise recall<br>
-<img align='center' style="padding:10px 0px 10px 0px; border-radius: 0%" src="../assets/Mouse_WB/HANN/Ground_truth_neighborhood_HANN_WB_neighborhood_recall.png"/>
+<img align='center' style="padding:10px 0px 10px 0px; border-radius: 0%" src="../assets/Mouse_WB/HANN_FindMarkers/Ground_truth_neighborhood_HANN_WB_neighborhood_recall.png"/>
 
 4. Label-wise precision<br>
-<img align='center' style="padding:10px 0px 10px 0px; border-radius: 0%" src="../assets/Mouse_WB/HANN/Ground_truth_neighborhood_HANN_WB_neighborhood_precision.png"/>
+<img align='center' style="padding:10px 0px 10px 0px; border-radius: 0%" src="../assets/Mouse_WB/HANN_FindMarkers/Ground_truth_neighborhood_HANN_WB_neighborhood_precision.png"/>
 
 5. Confusion matrix (row-normalized)<br>
-<img align='center' style="padding:10px 0px 10px 0px; border-radius: 0%" src="../assets/Mouse_WB/HANN/Ground_truth_neighborhood_HANN_WB_neighborhood_conf_mat.png"/>
+<img align='center' style="padding:10px 0px 10px 0px; border-radius: 0%" src="../assets/Mouse_WB/HANN_FindMarkers/Ground_truth_neighborhood_HANN_WB_neighborhood_conf_mat.png"/>
 
 </details>
 
@@ -96,19 +96,19 @@ Cluster | 0.711
 <summary> Subclass level metrics: </summary>
 
 1. Label-wise F1-score<br>
-<img align='center' style="padding:10px 0px 10px 0px; border-radius: 0%" src="../assets/Mouse_WB/HANN/Ground_truth_subclass_HANN_WB_subclass_F1_score.png"/>
+<img align='center' style="padding:10px 0px 10px 0px; border-radius: 0%" src="../assets/Mouse_WB/HANN_FindMarkers/Ground_truth_subclass_HANN_WB_subclass_F1_score.png"/>
 
 2. Confidence values for correctly and incorrectly assigned labels<br>
-<img align='center' style="padding:10px 0px 10px 0px; border-radius: 0%" src="../assets/Mouse_WB/HANN/Ground_truth_subclass_HANN_WB_subclass_conf_box.png"/>
+<img align='center' style="padding:10px 0px 10px 0px; border-radius: 0%" src="../assets/Mouse_WB/HANN_FindMarkers/Ground_truth_subclass_HANN_WB_subclass_conf_box.png"/>
 
 3. Label-wise recall<br>
-<img align='center' style="padding:10px 0px 10px 0px; border-radius: 0%" src="../assets/Mouse_WB/HANN/Ground_truth_subclass_HANN_WB_subclass_recall.png"/>
+<img align='center' style="padding:10px 0px 10px 0px; border-radius: 0%" src="../assets/Mouse_WB/HANN_FindMarkers/Ground_truth_subclass_HANN_WB_subclass_recall.png"/>
 
 4. Label-wise precision<br>
-<img align='center' style="padding:10px 0px 10px 0px; border-radius: 0%" src="../assets/Mouse_WB/HANN/Ground_truth_subclass_HANN_WB_subclass_precision.png"/>
+<img align='center' style="padding:10px 0px 10px 0px; border-radius: 0%" src="../assets/Mouse_WB/HANN_FindMarkers/Ground_truth_subclass_HANN_WB_subclass_precision.png"/>
 
 5. Confusion matrix (row-normalized)<br>
-<img align='center' style="padding:10px 0px 10px 0px; border-radius: 0%" src="../assets/Mouse_WB/HANN/Ground_truth_subclass_HANN_WB_subclass_conf_mat.png"/>
+<img align='center' style="padding:10px 0px 10px 0px; border-radius: 0%" src="../assets/Mouse_WB/HANN_FindMarkers/Ground_truth_subclass_HANN_WB_subclass_conf_mat.png"/>
 
 </details>
 
@@ -116,19 +116,19 @@ Cluster | 0.711
 <summary> Cluster metrics: </summary>
 
 1. Label-wise F1-score<br>
-<img align='center' style="padding:10px 0px 10px 0px; border-radius: 0%" src="../assets/Mouse_WB/HANN/gt_cl_HANN_WB_all_F1_score.png"/>
+<img align='center' style="padding:10px 0px 10px 0px; border-radius: 0%" src="../assets/Mouse_WB/HANN_FindMarkers/gt_cl_HANN_WB_all_F1_score.png"/>
 
 2. Confidence values for correctly and incorrectly assigned labels<br>
-<img align='center' style="padding:10px 0px 10px 0px; border-radius: 0%" src="../assets/Mouse_WB/HANN/gt_cl_HANN_WB_all_conf_box.png"/>
+<img align='center' style="padding:10px 0px 10px 0px; border-radius: 0%" src="../assets/Mouse_WB/HANN_FindMarkers/gt_cl_HANN_WB_all_conf_box.png"/>
 
 3. Label-wise recall<br>
-<img align='center' style="padding:10px 0px 10px 0px; border-radius: 0%" src="../assets/Mouse_WB/HANN/gt_cl_HANN_WB_all_recall.png"/>
+<img align='center' style="padding:10px 0px 10px 0px; border-radius: 0%" src="../assets/Mouse_WB/HANN_FindMarkers/gt_cl_HANN_WB_all_recall.png"/>
 
 4. Label-wise precision<br>
-<img align='center' style="padding:10px 0px 10px 0px; border-radius: 0%" src="../assets/Mouse_WB/HANN/gt_cl_HANN_WB_all_precision.png"/>
+<img align='center' style="padding:10px 0px 10px 0px; border-radius: 0%" src="../assets/Mouse_WB/HANN_FindMarkers/gt_cl_HANN_WB_all_precision.png"/>
 
 5. Confusion matrix (row-normalized)<br>
-<img align='center' style="padding:10px 0px 10px 0px; border-radius: 0%" src="../assets/Mouse_WB/HANN/gt_cl_HANN_WB_all_conf_mat.png"/>
+<img align='center' style="padding:10px 0px 10px 0px; border-radius: 0%" src="../assets/Mouse_WB/HANN_FindMarkers/gt_cl_HANN_WB_all_conf_mat.png"/>
 
 </details>
 
@@ -138,15 +138,15 @@ Here we evaluate `HANN` at correctly predicting the Subclass label for multiple 
 
 Query | Annotation | F1-score | | Annotation | F1-score          
 --- | --- | --- | --- | --- | ---                  
-10X_cells_v3_AIBS | Subclass | 0.972 | | Cluster | 0.857     
-10X_nuclei_v3_AIBS | Subclass | 0.943 | | Cluster | 0.785
-10X_nuclei_v3_Broad | Subclass | 0.966 | | Cluster | 0.854
+10X_cells_v3_AIBS | Subclass | 0.971 | | Cluster | 0.857     
+10X_nuclei_v3_AIBS | Subclass | 0.947 | | Cluster | 0.785
+10X_nuclei_v3_Broad | Subclass | 0.970 | | Cluster | 0.854
 10X_cells_v2_AIBS | Subclass | 0.976 | | Cluster | 0.855
-10X_nuclei_v2_AIBS | Subclass | 0.918 | | Cluster | 0.650
-SmartSeq_cells_AIBS | Subclass | 0.971 | | Cluster | 0.812
+10X_nuclei_v2_AIBS | Subclass | 0.919 | | Cluster | 0.650
+SmartSeq_cells_AIBS | Subclass | 0.970 | | Cluster | 0.812
 SmartSeq_nuclei_AIBS | Subclass | 0.961 | | Cluster | 0.803
 
-<img align='center' style="padding:10px 0px 10px 0px; border-radius: 0%" src="../assets/Mouse_WB/HANN/Ground_truth_subclass_HANN_WB_subclass_cond_conf_box.png"/>
+<img align='center' style="padding:10px 0px 10px 0px; border-radius: 0%" src="../assets/Mouse_WB/HANN_FindMarkers/Ground_truth_subclass_HANN_WB_subclass_cond_conf_box.png"/>
 
 ### Recommendations and caveats
  - At the **Class**, **Neighborhood**, and **Subclass** level, for high quality RNA-seq data - `HANN` makes few errors.
