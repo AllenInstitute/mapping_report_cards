@@ -14,22 +14,22 @@ Detailed model evaluation on curated benchmark datasets are stored here to infor
 
 Model | Benchmark | Date | Runtime 
 --- | --- | --- | --- 
-[HANN](./Human_reports/HANN_human.md) | human MTG SEA-AD | 07/12/2023 | 3 Hours 
-[HANN (FindMarkers)](./Human_reports/HANN_FindMarkers_human.md) | human MTG SEA-AD | 07/12/2023 | 3 Hours
-[FLAT](./Human_reports/FLAT_human.md) | human MTG SEA-AD | 07/12/2023 | 1.8 Hours 
+[HANN](./Human_reports/HANN_human.md) $~~~~~~~~~~~$ | human MTG SEA-AD | 3 Hours 
+[HANN (FindMarkers)](./Human_reports/HANN_FindMarkers_human.md) $~~~~~~~~~~~$ | human MTG SEA-AD | 3 Hours
+[FLAT](./Human_reports/FLAT_human.md) $~~~~~~~~~~~$ | human MTG SEA-AD | 1.8 Hours 
 
 ## Evaluations: `mouse WB` benchmark
 
 Model | Benchmark | Date | Runtime
 --- | --- | --- | --- 
-[HANN](./Mouse_reports/HANN_mouse_WB.md) | mouse WB | 07/12/2023 | 0.76 | 
-[HANN (FindMarkers)](./Mouse_reports/HANN_FindMarkers_mouse_WB.md) | mouse WB | 07/12/2023 | | 
-[FLAT](./Mouse_reports/FLAT_mouse_WB.md) | mouse WB | 07/12/2023 | |
+[HANN](./Mouse_reports/HANN_mouse_WB.md) | mouse WB | 0.76 Hours | 
+[HANN (FindMarkers)](./Mouse_reports/HANN_FindMarkers_mouse_WB.md) | mouse WB | | 
+[FLAT](./Mouse_reports/FLAT_mouse_WB.md) | mouse WB | |
 
 ## Benchmarks
 More details about the benchmark data can be found [here](LINK). (Link broken until data cards setup)
 
-## Models
+## Algorithms
 More details about the models benchmarked can be found [here](LINK). (Link broken until model cards setup)
 
 ## Scripts
