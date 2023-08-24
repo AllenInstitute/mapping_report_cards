@@ -1,4 +1,12 @@
-# Report card for `HANN_FindMarkers` on `Human SEA-AD` benchmark
+---
+title: ""
+layout: single
+classes: wide
+author_profile: true
+author: ReportCards
+---
+
+# Report card for `HANN (FindMarkers)` on `Human SEA-AD` benchmark
 
 ### Overview
 

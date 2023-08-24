@@ -1,3 +1,11 @@
+---
+title: ""
+layout: single
+classes: wide
+author_profile: true
+author: ReportCards
+---
+
 # Report card for `HANN` on `Human SEA-AD` benchmark
 
 ### Overview
