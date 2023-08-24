@@ -1,9 +1,9 @@
 main:
   - title: "Home"
     url: /
-  - title: "Benchmark data"
+  - title: "Benchmarks"
     url: /data/
-  - title: "Mapping algorithms"
+  - title: "Algorithms"
     url: /algorithms/
   - title: "Evaluation"
     url: /evaluation/

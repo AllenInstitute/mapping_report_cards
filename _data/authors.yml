@@ -7,9 +7,9 @@ ReportCards:
   links:
     - label: "Home"
       url: /
-    - label: "Benchmark data"
+    - label: "Benchmarks"
       url: /data/
-    - label: "Mapping algorithms"
+    - label: "Algorithms"
       url: /algorithms/
     - label: "Evaluation"
       url: /evaluation/

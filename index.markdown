@@ -3,7 +3,7 @@ title: "Mapping algorithm benchmarking"
 layout: single
 classes: wide
 author_profile: true
-author: about
+author: ReportCards
 ---
 
 ## Overview
@@ -22,9 +22,9 @@ Model | Benchmark | Date | Runtime
 
 Model | Benchmark | Date | Runtime
 --- | --- | --- | --- 
-HANN | mouse WB | 07/12/2023 | 0.76 | 
-HANN (FindMarkers) | mouse WB | 07/12/2023 | | 
-FLAT | mouse WB | 07/12/2023 | |
+[HANN](./Mouse_reports/HANN_mouse_WB.md) | mouse WB | 07/12/2023 | 0.76 | 
+[HANN (FindMarkers)](./Mouse_reports/HANN_FindMarkers_mouse_WB.md) | mouse WB | 07/12/2023 | | 
+[FLAT](./Mouse_reports/FLAT_mouse_WB.md) | mouse WB | 07/12/2023 | |
 
 ## Benchmarks
 More details about the benchmark data can be found [here](LINK). (Link broken until data cards setup)
@@ -33,5 +33,4 @@ More details about the benchmark data can be found [here](LINK). (Link broken un
 More details about the models benchmarked can be found [here](LINK). (Link broken until model cards setup)
 
 ## Scripts
-
 The python scripts to produce the model report cards are hosted on the Allen Institute bmark repo.
