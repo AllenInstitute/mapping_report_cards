@@ -156,4 +156,4 @@ SmartSeq_nuclei_AIBS | Subclass | 0.969 | | Cluster | 0.811
 
 ### Recommendations and caveats
  - At the **Class**, **Neighborhood**, and **Subclass** level, for high quality RNA-seq data - `Flat` mapping makes more errors than `HANN` but still has strong performance.
- - `Flat` mapping robustly classify samples under varying conditions imparting donor and disease specific changes in gene expression.
+ - `Flat` mapping robustly classify samples from multiple sequencing techologies which lead to changes in gene expression. `Flat` mapping fails to correct label samples from the `10X_nuclei_V2` protocol.

@@ -5,7 +5,7 @@ ReportCards:
   website     : "/"
   avatar      : "/assets/logo_mapping.png"
   links:
-    - label: "Home"
+    - label: "Overview"
       url: /
     - label: "Benchmarks"
       url: /data/

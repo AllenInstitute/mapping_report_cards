@@ -132,7 +132,8 @@ Supertype | High_MTG_RNASeq_benchmark | 0.983
 Here we evaluate how `HANN` predicts labels for low-quality samples in the query data with predefined QC flags.
 <img align='center' style="padding:10px 0px 10px 0px; border-radius: 0%" src="../assets/human_SEA-AD/HANN/Supertype_HANN_low_qc_conf_mat.png"/>
 
-## Plot confidence scores for low-qc vs. normal samples.
+And how confident the model is when predicting labels for high and low quality data for each subclass.
+<img align='center' style="padding:10px 0px 10px 0px; border-radius: 0%" src="../assets/human_SEA-AD/FLAT/Subclass_HANN_quality_conf_box.png"/>
 
 ### Recommendations and caveats
  - At the **Class** and **Subclass** level, for high quality RNA-seq data - `HANN` makes few errors.

@@ -132,6 +132,9 @@ Supertype | High_MTG_RNASeq_benchmark | 0.991
 Here we evaluate how `HANN (FindMarkers)` predicts labels for low-quality samples in the query data with predefined QC flags.
 <img align='center' style="padding:10px 0px 10px 0px; border-radius: 0%" src="../assets/human_SEA-AD/HANN_FindMarkers/Supertype_HANN_FindMarkers_low_qc_conf_mat.png"/>
 
+And how confident the model is when predicting labels for high and low quality data for each subclass.
+<img align='center' style="padding:10px 0px 10px 0px; border-radius: 0%" src="../assets/human_SEA-AD/FLAT/Subclass_HANN_FindMarkers_quality_conf_box.png"/>
+
 ### Recommendations and caveats
  - At the **Class** and **Subclass** level, for high quality RNA-seq data - `HANN (FindMarkers)` makes few errors.
  - `HANN (FindMarkers)` robustly classify samples under varying conditions imparting donor and disease specific changes in gene expression.

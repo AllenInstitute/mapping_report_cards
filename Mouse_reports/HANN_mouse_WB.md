@@ -158,4 +158,4 @@ SmartSeq_nuclei_AIBS | Subclass | 0.961 | | Cluster | 0.803
 
 ### Recommendations and caveats
  - At the **Class**, **Neighborhood**, and **Subclass** level, for high quality RNA-seq data - `HANN` makes few errors.
- - `HANN` robustly classify samples under varying conditions imparting donor and disease specific changes in gene expression.
+ - `HANN` mapping robustly classify samples from multiple sequencing techologies which lead to changes in gene expression.
