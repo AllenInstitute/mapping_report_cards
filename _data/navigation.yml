@@ -2,7 +2,7 @@ main:
   - title: "Home"
     url: /
   - title: "Benchmarks"
-    url: /data/
+    url: /benchmarks/
   - title: "Algorithms"
     url: /algorithms/
   - title: "Evaluation"

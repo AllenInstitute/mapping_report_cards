@@ -1,7 +1,7 @@
 # /_data/authors.yml
 ReportCards:
   name        : "ReportCards"
-  bio         : "**Method benchmarking**"
+  bio         : "**Mapping Algorithms**"
   website     : "/"
   avatar      : "/"
   links:

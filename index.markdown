@@ -1,5 +1,5 @@
 ---
-title: "Mapping algorithm benchmarking"
+title: ""
 layout: single
 classes: wide
 author_profile: true
