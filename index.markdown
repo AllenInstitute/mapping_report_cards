@@ -3,7 +3,7 @@ title: "Mapping algorithm benchmarking"
 layout: single
 classes: wide
 author_profile: true
-author: AIBS
+author: about
 ---
 
 ## Overview

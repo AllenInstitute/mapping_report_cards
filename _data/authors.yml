@@ -1,12 +1,12 @@
 # /_data/authors.yml
-AIBS:
-  name        : "AIBS"
+ReportCards:
+  name        : "ReportCards"
   bio         : "**Method benchmarking**"
   website     : "/"
   avatar      : "/"
   links:
-    - label: "Overview"
-      url: /overview/
+    - label: "Home"
+      url: /ReportCards/
     - label: "Benchmark data"
       url: /data/
     - label: "Mapping algorithms"
