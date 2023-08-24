@@ -3,7 +3,7 @@ ReportCards:
   name        : "ReportCards"
   bio         : "**Mapping Algorithms**"
   website     : "/"
-  avatar      : "/"
+  avatar      : "/assets/logo_mapping.png"
   links:
     - label: "Home"
       url: /
