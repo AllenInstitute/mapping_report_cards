@@ -1,3 +1,11 @@
+---
+title: ""
+layout: single
+classes: wide
+author_profile: true
+author: ReportCards
+---
+
 # Report card for `Flat` mapping on `Mouse whole brain (cortex)` benchmark
 
 ### Overview
@@ -47,10 +55,9 @@ Here we evaluate `Flat` mapping at predicting high quality samples for each of t
 Annotaion | F1-score
 --- | ---
 Class | 0.999
-Neighborhood | 0.955
-Subclass | 0.955
-Mini atlas label | 0.762
-Cluster | 0.711
+Neighborhood | 0.938
+Subclass | 0.937
+Cluster | 0.655
 
 <details>
 <summary> Class level metrics: </summary>
@@ -90,7 +97,6 @@ Cluster | 0.711
 <img align='center' style="padding:10px 0px 10px 0px; border-radius: 0%" src="../assets/Mouse_WB/FLAT/Ground_truth_neighborhood_HANN_WB_neighborhood_conf_mat.png"/>
 
 </details>
-
 
 <details>
 <summary> Subclass level metrics: </summary>

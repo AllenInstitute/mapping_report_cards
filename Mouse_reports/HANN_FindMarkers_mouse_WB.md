@@ -1,3 +1,11 @@
+---
+title: ""
+layout: single
+classes: wide
+author_profile: true
+author: ReportCards
+---
+
 # Report card for `HANN` on `Mouse whole brain (cortex)` benchmark
 
 ### Overview
@@ -49,7 +57,6 @@ Annotaion | F1-score
 Class | 0.999
 Neighborhood | 0.955
 Subclass | 0.955
-Mini atlas label | 0.762
 Cluster | 0.711
 
 <details>
