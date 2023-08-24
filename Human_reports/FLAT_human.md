@@ -45,25 +45,31 @@ Supertype | 0.871
 
 ### Quantitative analysis
 
-Here we evaluate `FLAT` at predicting high quality samples for each of the query datasets.
+Here we evaluate `FLAT` at predicting high quality samples for each of the query datasets from the human SEA-AD benchmark.
 
-#### Supertype metrics:
+
+<details>
+<summary> Class metrics: </summary>
+
 1. Label-wise F1-score<br>
-<img align='center' style="padding:10px 0px 10px 0px; border-radius: 0%" src="../assets/human_SEA-AD/FLAT/Supertype_FLAT_all_F1_score.png"/>
+<img align='center' style="padding:10px 0px 10px 0px; border-radius: 0%" src="../assets/human_SEA-AD/FLAT/Class_FLAT_all_F1_score.png"/>
 
 2. Confidence values for correctly and incorrectly assigned labels<br>
-<img align='center' style="padding:10px 0px 10px 0px; border-radius: 0%" src="../assets/human_SEA-AD/FLAT/Supertype_FLAT_all_conf_box.png"/>
+<img align='center' style="padding:10px 0px 10px 0px; border-radius: 0%" src="../assets/human_SEA-AD/FLAT/Class_FLAT_all_conf_box.png"/>
 
 3. Label-wise recall<br>
-<img align='center' style="padding:10px 0px 10px 0px; border-radius: 0%" src="../assets/human_SEA-AD/FLAT/Supertype_FLAT_all_recall.png"/>
+<img align='center' style="padding:10px 0px 10px 0px; border-radius: 0%" src="../assets/human_SEA-AD/FLAT/Class_FLAT_all_recall.png"/>
 
 4. Label-wise precision<br>
-<img align='center' style="padding:10px 0px 10px 0px; border-radius: 0%" src="../assets/human_SEA-AD/FLAT/Supertype_FLAT_all_precision.png"/>
+<img align='center' style="padding:10px 0px 10px 0px; border-radius: 0%" src="../assets/human_SEA-AD/FLAT/Class_FLAT_all_precision.png"/>
 
-5. Confusion matrix (row-normalized)<br>
-<img align='center' style="padding:10px 0px 10px 0px; border-radius: 0%" src="../assets/human_SEA-AD/FLAT/Supertype_FLAT_all_conf_mat.png"/>
+5. Confusion matrix (row-normalized)<br><img align='center' style="padding:10px 0px 10px 0px; border-radius: 0%" src="../assets/human_SEA-AD/FLAT/Class_FLAT_all_conf_mat.png"/>
 
-#### Subclass level metrics:
+</details>
+
+<details>
+<summary> Sublass metrics: </summary>
+
 1. Label-wise F1-score<br>
 <img align='center' style="padding:10px 0px 10px 0px; border-radius: 0%" src="../assets/human_SEA-AD/FLAT/Subclass_FLAT_all_F1_score.png"/>
 
@@ -79,20 +85,27 @@ Here we evaluate `FLAT` at predicting high quality samples for each of the query
 5. Confusion matrix (row-normalized)<br>
 <img align='center' style="padding:10px 0px 10px 0px; border-radius: 0%" src="../assets/human_SEA-AD/FLAT/Subclass_FLAT_all_conf_mat.png"/>
 
-#### Subclass level metrics:
+</details>
+
+<details>
+<summary> Supertype metrics: </summary>
+
 1. Label-wise F1-score<br>
-<img align='center' style="padding:10px 0px 10px 0px; border-radius: 0%" src="../assets/human_SEA-AD/FLAT/Class_FLAT_all_F1_score.png"/>
+<img align='center' style="padding:10px 0px 10px 0px; border-radius: 0%" src="../assets/human_SEA-AD/FLAT/Supertype_FLAT_all_F1_score.png"/>
 
 2. Confidence values for correctly and incorrectly assigned labels<br>
-<img align='center' style="padding:10px 0px 10px 0px; border-radius: 0%" src="../assets/human_SEA-AD/FLAT/Class_FLAT_all_conf_box.png"/>
+<img align='center' style="padding:10px 0px 10px 0px; border-radius: 0%" src="../assets/human_SEA-AD/FLAT/Supertype_FLAT_all_conf_box.png"/>
 
 3. Label-wise recall<br>
-<img align='center' style="padding:10px 0px 10px 0px; border-radius: 0%" src="../assets/human_SEA-AD/FLAT/Class_FLAT_all_recall.png"/>
+<img align='center' style="padding:10px 0px 10px 0px; border-radius: 0%" src="../assets/human_SEA-AD/FLAT/Supertype_FLAT_all_recall.png"/>
 
 4. Label-wise precision<br>
-<img align='center' style="padding:10px 0px 10px 0px; border-radius: 0%" src="../assets/human_SEA-AD/FLAT/Class_FLAT_all_precision.png"/>
+<img align='center' style="padding:10px 0px 10px 0px; border-radius: 0%" src="../assets/human_SEA-AD/FLAT/Supertype_FLAT_all_precision.png"/>
 
-5. Confusion matrix (row-normalized)<br><img align='center' style="padding:10px 0px 10px 0px; border-radius: 0%" src="../assets/human_SEA-AD/FLAT/Class_FLAT_all_conf_mat.png"/>
+5. Confusion matrix (row-normalized)<br>
+<img align='center' style="padding:10px 0px 10px 0px; border-radius: 0%" src="../assets/human_SEA-AD/FLAT/Supertype_FLAT_all_conf_mat.png"/>
+
+</details>
 
 ### Donor effect analysis
 

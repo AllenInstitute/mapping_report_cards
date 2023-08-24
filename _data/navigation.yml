@@ -1,6 +1,6 @@
 main:
   - title: "Home"
-    url: /ReportCards/
+    url: /
   - title: "Benchmark data"
     url: /data/
   - title: "Mapping algorithms"

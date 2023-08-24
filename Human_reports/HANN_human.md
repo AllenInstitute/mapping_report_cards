@@ -45,25 +45,30 @@ Supertype | 0.859
 
 ### Quantitative analysis
 
-Here we evaluate `HANN` at predicting high quality samples for each of the query datasets.
+Here we evaluate `HANN` at predicting high quality samples for each of the query datasets from the human SEA-AD benchmark.
 
-#### Supertype metrics:
+<details>
+<summary> Class metrics: </summary>
+
 1. Label-wise F1-score<br>
-<img align='center' style="padding:10px 0px 10px 0px; border-radius: 0%" src="../assets/human_SEA-AD/HANN/Supertype_HANN_all_F1_score.png"/>
+<img align='center' style="padding:10px 0px 10px 0px; border-radius: 0%" src="../assets/human_SEA-AD/HANN/Class_HANN_all_F1_score.png"/>
 
 2. Confidence values for correctly and incorrectly assigned labels<br>
-<img align='center' style="padding:10px 0px 10px 0px; border-radius: 0%" src="../assets/human_SEA-AD/HANN/Supertype_HANN_all_conf_box.png"/>
+<img align='center' style="padding:10px 0px 10px 0px; border-radius: 0%" src="../assets/human_SEA-AD/HANN/Class_HANN_all_conf_box.png"/>
 
 3. Label-wise recall<br>
-<img align='center' style="padding:10px 0px 10px 0px; border-radius: 0%" src="../assets/human_SEA-AD/HANN/Supertype_HANN_all_recall.png"/>
+<img align='center' style="padding:10px 0px 10px 0px; border-radius: 0%" src="../assets/human_SEA-AD/HANN/Class_HANN_all_recall.png"/>
 
 4. Label-wise precision<br>
-<img align='center' style="padding:10px 0px 10px 0px; border-radius: 0%" src="../assets/human_SEA-AD/HANN/Supertype_HANN_all_precision.png"/>
+<img align='center' style="padding:10px 0px 10px 0px; border-radius: 0%" src="../assets/human_SEA-AD/HANN/Class_HANN_all_precision.png"/>
 
-5. Confusion matrix (row-normalized)<br>
-<img align='center' style="padding:10px 0px 10px 0px; border-radius: 0%" src="../assets/human_SEA-AD/HANN/Supertype_HANN_all_conf_mat.png"/>
+5. Confusion matrix (row-normalized)<br><img align='center' style="padding:10px 0px 10px 0px; border-radius: 0%" src="../assets/human_SEA-AD/HANN/Class_HANN_all_conf_mat.png"/>
 
-#### Subclass level metrics:
+</details>
+
+<details>
+<summary> Subclass metrics: </summary>
+
 1. Label-wise F1-score<br>
 <img align='center' style="padding:10px 0px 10px 0px; border-radius: 0%" src="../assets/human_SEA-AD/HANN/Subclass_HANN_all_F1_score.png"/>
 
@@ -79,20 +84,27 @@ Here we evaluate `HANN` at predicting high quality samples for each of the query
 5. Confusion matrix (row-normalized)<br>
 <img align='center' style="padding:10px 0px 10px 0px; border-radius: 0%" src="../assets/human_SEA-AD/HANN/Subclass_HANN_all_conf_mat.png"/>
 
-#### Subclass level metrics:
+</details>
+
+<details>
+<summary> Supertype metrics: </summary>
+
 1. Label-wise F1-score<br>
-<img align='center' style="padding:10px 0px 10px 0px; border-radius: 0%" src="../assets/human_SEA-AD/HANN/Class_HANN_all_F1_score.png"/>
+<img align='center' style="padding:10px 0px 10px 0px; border-radius: 0%" src="../assets/human_SEA-AD/HANN/Supertype_HANN_all_F1_score.png"/>
 
 2. Confidence values for correctly and incorrectly assigned labels<br>
-<img align='center' style="padding:10px 0px 10px 0px; border-radius: 0%" src="../assets/human_SEA-AD/HANN/Class_HANN_all_conf_box.png"/>
+<img align='center' style="padding:10px 0px 10px 0px; border-radius: 0%" src="../assets/human_SEA-AD/HANN/Supertype_HANN_all_conf_box.png"/>
 
 3. Label-wise recall<br>
-<img align='center' style="padding:10px 0px 10px 0px; border-radius: 0%" src="../assets/human_SEA-AD/HANN/Class_HANN_all_recall.png"/>
+<img align='center' style="padding:10px 0px 10px 0px; border-radius: 0%" src="../assets/human_SEA-AD/HANN/Supertype_HANN_all_recall.png"/>
 
 4. Label-wise precision<br>
-<img align='center' style="padding:10px 0px 10px 0px; border-radius: 0%" src="../assets/human_SEA-AD/HANN/Class_HANN_all_precision.png"/>
+<img align='center' style="padding:10px 0px 10px 0px; border-radius: 0%" src="../assets/human_SEA-AD/HANN/Supertype_HANN_all_precision.png"/>
 
-5. Confusion matrix (row-normalized)<br><img align='center' style="padding:10px 0px 10px 0px; border-radius: 0%" src="../assets/human_SEA-AD/HANN/Class_HANN_all_conf_mat.png"/>
+5. Confusion matrix (row-normalized)<br>
+<img align='center' style="padding:10px 0px 10px 0px; border-radius: 0%" src="../assets/human_SEA-AD/HANN/Supertype_HANN_all_conf_mat.png"/>
+
+</details>
 
 ### Donor effect analysis
 

@@ -6,7 +6,7 @@ ReportCards:
   avatar      : "/"
   links:
     - label: "Home"
-      url: /ReportCards/
+      url: /
     - label: "Benchmark data"
       url: /data/
     - label: "Mapping algorithms"
