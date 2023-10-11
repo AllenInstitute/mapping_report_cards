@@ -1,0 +1,599 @@
+<!doctype html>
+<!--
+  Minimal Mistakes Jekyll Theme 4.24.0 by Michael Rose
+  Copyright 2013-2020 Michael Rose - mademistakes.com | @mmistakes
+  Free for personal and commercial use under the MIT license
+  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE
+-->
+<html lang="en" class="no-js">
+  <head>
+    <meta charset="utf-8">
+
+<!-- begin _includes/seo.html --><title>  Mapping algorithm benchmarks</title>
+<meta name="description" content="””">
+
+
+  <meta name="author" content="ReportCards">
+  
+
+
+<meta property="og:type" content="website">
+<meta property="og:locale" content="en_US">
+<meta property="og:site_name" content="Mapping algorithm benchmarks">
+<meta property="og:title" content="Mapping algorithm benchmarks">
+<meta property="og:url" content="/Mouse_reports/HANN_FindMarkers_mouse_WB.html">
+
+
+  <meta property="og:description" content="””">
+
+
+
+
+
+
+
+
+
+
+
+
+<link rel="canonical" href="/Mouse_reports/HANN_FindMarkers_mouse_WB.html">
+
+
+
+
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    
+      "@type": "Person",
+      "name": null,
+      "url": "/"
+    
+  }
+</script>
+
+
+
+
+
+
+
+<!-- end _includes/seo.html -->
+
+
+
+  <link href="/feed.xml" type="application/atom+xml" rel="alternate" title="Mapping algorithm benchmarks Feed">
+
+
+<!-- https://t.co/dKP3o1e -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+</script>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="/assets/css/main.css">
+<link rel="preload" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css"></noscript>
+
+
+
+    <!-- start custom head snippets -->
+
+<!-- insert favicons. use https://realfavicongenerator.net/ -->
+
+<!-- end custom head snippets -->
+
+  </head>
+
+  <body class="layout--single wide">
+    <nav class="skip-links">
+  <ul>
+    <li><a href="#site-nav" class="screen-reader-shortcut">Skip to primary navigation</a></li>
+    <li><a href="#main" class="screen-reader-shortcut">Skip to content</a></li>
+    <li><a href="#footer" class="screen-reader-shortcut">Skip to footer</a></li>
+  </ul>
+</nav>
+
+    <!--[if lt IE 9]>
+<div class="notice--danger align-center" style="margin: 0;">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience.</div>
+<![endif]-->
+
+    
+
+<div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+        
+        <a class="site-title" href="/">
+          Mapping algorithm benchmarks
+          
+        </a>
+        <ul class="visible-links"><li class="masthead__menu-item">
+              <a href="/">Overview</a>
+            </li><li class="masthead__menu-item">
+              <a href="/benchmarks/">Benchmarks</a>
+            </li><li class="masthead__menu-item">
+              <a href="/algorithms/">Algorithms</a>
+            </li><li class="masthead__menu-item">
+              <a href="/evaluation/">Evaluation</a>
+            </li></ul>
+        
+        <button class="greedy-nav__toggle hidden" type="button">
+          <span class="visually-hidden">Toggle menu</span>
+          <div class="navicon"></div>
+        </button>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+    </div>
+  </div>
+</div>
+
+
+    <div class="initial-content">
+      
+
+
+
+<div id="main" role="main">
+  
+  <div class="sidebar sticky">
+  
+
+
+<div itemscope itemtype="https://schema.org/Person">
+
+  
+    <div class="author__avatar">
+      
+        <img src="/assets/logo_mapping.png" alt="ReportCards" itemprop="image">
+      
+    </div>
+  
+
+  <div class="author__content">
+    
+      <h3 class="author__name" itemprop="name">ReportCards</h3>
+    
+    
+      <div class="author__bio" itemprop="description">
+        <p>Mapping Algorithms</p>
+
+      </div>
+    
+  </div>
+
+  <div class="author__urls-wrapper">
+    <button class="btn btn--inverse">Follow</button>
+    <ul class="author__urls social-icons">
+      
+
+      
+        
+          
+            <li><a href="/" rel="nofollow noopener noreferrer"><i class="fas fa-link" aria-hidden="true"></i><span class="label">Overview</span></a></li>
+          
+        
+          
+            <li><a href="/data/" rel="nofollow noopener noreferrer"><i class="fas fa-link" aria-hidden="true"></i><span class="label">Benchmarks</span></a></li>
+          
+        
+          
+            <li><a href="/algorithms/" rel="nofollow noopener noreferrer"><i class="fas fa-link" aria-hidden="true"></i><span class="label">Algorithms</span></a></li>
+          
+        
+          
+            <li><a href="/evaluation/" rel="nofollow noopener noreferrer"><i class="fas fa-link" aria-hidden="true"></i><span class="label">Evaluation</span></a></li>
+          
+        
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      <!--
+  <li>
+    <a href="http://link-to-whatever-social-network.com/user/" itemprop="sameAs" rel="nofollow noopener noreferrer">
+      <i class="fas fa-fw" aria-hidden="true"></i> Custom Social Profile Link
+    </a>
+  </li>
+-->
+    </ul>
+  </div>
+</div>
+
+  
+  </div>
+
+
+
+  <article class="page" itemscope itemtype="https://schema.org/CreativeWork">
+    <meta itemprop="headline" content="">
+    
+    
+    
+
+    <div class="page__inner-wrap">
+      
+        <header>
+          <h1 id="page-title" class="page__title" itemprop="headline">
+</h1>
+          
+
+
+        </header>
+      
+
+      <section class="page__content" itemprop="text">
+        
+        <h1 id="report-card-for-hann-on-mouse-whole-brain-cortex-benchmark">Report card for <code class="language-plaintext highlighter-rouge">HANN</code> on <code class="language-plaintext highlighter-rouge">Mouse whole brain (cortex)</code> benchmark</h1>
+
+<h3 id="overview">Overview</h3>
+
+<p>The accuracy of cell type mapping using the Hierarchical approximate nearest neighbor (HANN) algorithm was evaluated against the mouse whole brain (WB) cortical taxonomy.</p>
+
+<p>In summary, <code class="language-plaintext highlighter-rouge">HANN</code> was able to achieve <strong>strong accuracy</strong> at <strong>class, neighborhood and subclass</strong> resolution of the mouse WB cortical taxonomy containing sequencing technology batch effects.</p>
+
+<ul>
+  <li>Summary:
+    <ul>
+      <li>Inputs <code class="language-plaintext highlighter-rouge">X</code> are log(CPM) normalized expression values of marker genes.</li>
+      <li>Hierarchy was encoded by Class, Neighborhood, Subclass, Cluster.</li>
+      <li><code class="language-plaintext highlighter-rouge">Confidence</code> values were derived via bootstraping.</li>
+    </ul>
+  </li>
+  <li>Runtime: 17.41 Hours</li>
+  <li>Version: X.Y.Z</li>
+  <li>Repository: <a href="TBD">TBD</a></li>
+  <li>Publication: –</li>
+</ul>
+
+<h3 id="tasks">Tasks</h3>
+<ul>
+  <li>Primary tasks:
+    <ol>
+      <li>Classification of scRNA-seq samples into whole brain clusters.</li>
+      <li>Determining generalization of <code class="language-plaintext highlighter-rouge">HANN</code> classification to samples from multiple sequencing technologies.</li>
+    </ol>
+  </li>
+  <li>Users: AIBS scientists and community mapping tool users.</li>
+  <li>Out of scope: Classification on other modalities (e.g. SMART-seq, Patch-seq, MERFISH), or regions (e.g. V1), or species (e.g. primate)</li>
+</ul>
+
+<h3 id="metrics">Metrics</h3>
+<ul>
+  <li>Accuracy</li>
+  <li>Precision, Recall, F1-score on validation set</li>
+</ul>
+
+<h3 id="reference-and-query-evaluation-data">Reference and query evaluation data</h3>
+<ul>
+  <li>Reference
+    <ul>
+      <li>Mouse whole brain taxonomy single nucleus 10xV3 dataset from aged healthy individuals.</li>
+      <li>Cluster and sequencing technology metadata provided for each reference sample.</li>
+    </ul>
+  </li>
+  <li>Query
+    <ul>
+      <li>Mouse whole brain taxonomy data from multiple sequencing technologies.
+        <ul>
+          <li>SmartSeq_cells_AIBS</li>
+          <li>SmartSeq_nuclei_AIBS</li>
+          <li>10X_cells_v2_AIBS</li>
+          <li>10X_nuclei_v2_AIBS</li>
+          <li>10X_cells_v3_AIBS</li>
+          <li>10X_nuclei_v3_AIBS</li>
+          <li>10X_nuclei_v3_Broad</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+</ul>
+
+<h3 id="quantitative-analysis">Quantitative analysis</h3>
+
+<p>Here we evaluate <code class="language-plaintext highlighter-rouge">HANN</code> at predicting high quality samples for each of the query datasets. Each annotation level can be expanded to reveal addition evaluation metrics.</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Annotaion</th>
+      <th>F1-score</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Class</td>
+      <td>0.999</td>
+    </tr>
+    <tr>
+      <td>Neighborhood</td>
+      <td>0.955</td>
+    </tr>
+    <tr>
+      <td>Subclass</td>
+      <td>0.955</td>
+    </tr>
+    <tr>
+      <td>Cluster</td>
+      <td>0.711</td>
+    </tr>
+  </tbody>
+</table>
+
+<details>
+<summary> Class level metrics: </summary>
+
+1. Label-wise F1-score<br />
+<img align="center" style="padding:10px 0px 10px 0px; border-radius: 0%" src="../assets/Mouse_WB/HANN_FindMarkers/Ground_truth_class_HANN_WB_class_F1_score.png" />
+
+2. Confidence values for correctly and incorrectly assigned labels<br />
+<img align="center" style="padding:10px 0px 10px 0px; border-radius: 0%" src="../assets/Mouse_WB/HANN_FindMarkers/Ground_truth_class_HANN_WB_class_conf_box.png" />
+
+3. Label-wise recall<br />
+<img align="center" style="padding:10px 0px 10px 0px; border-radius: 0%" src="../assets/Mouse_WB/HANN_FindMarkers/Ground_truth_class_HANN_WB_class_recall.png" />
+
+4. Label-wise precision<br />
+<img align="center" style="padding:10px 0px 10px 0px; border-radius: 0%" src="../assets/Mouse_WB/HANN_FindMarkers/Ground_truth_class_HANN_WB_class_precision.png" />
+
+5. Confusion matrix (row-normalized)<br /><img align="center" style="padding:10px 0px 10px 0px; border-radius: 0%" src="../assets/Mouse_WB/HANN_FindMarkers/Ground_truth_class_HANN_WB_class_conf_mat.png" />
+
+</details>
+
+<details>
+<summary> Neighborhood level metrics: </summary>
+
+1. Label-wise F1-score<br />
+<img align="center" style="padding:10px 0px 10px 0px; border-radius: 0%" src="../assets/Mouse_WB/HANN_FindMarkers/Ground_truth_neighborhood_HANN_WB_neighborhood_F1_score.png" />
+
+2. Confidence values for correctly and incorrectly assigned labels<br />
+<img align="center" style="padding:10px 0px 10px 0px; border-radius: 0%" src="../assets/Mouse_WB/HANN_FindMarkers/Ground_truth_neighborhood_HANN_WB_neighborhood_conf_box.png" />
+
+3. Label-wise recall<br />
+<img align="center" style="padding:10px 0px 10px 0px; border-radius: 0%" src="../assets/Mouse_WB/HANN_FindMarkers/Ground_truth_neighborhood_HANN_WB_neighborhood_recall.png" />
+
+4. Label-wise precision<br />
+<img align="center" style="padding:10px 0px 10px 0px; border-radius: 0%" src="../assets/Mouse_WB/HANN_FindMarkers/Ground_truth_neighborhood_HANN_WB_neighborhood_precision.png" />
+
+5. Confusion matrix (row-normalized)<br />
+<img align="center" style="padding:10px 0px 10px 0px; border-radius: 0%" src="../assets/Mouse_WB/HANN_FindMarkers/Ground_truth_neighborhood_HANN_WB_neighborhood_conf_mat.png" />
+
+</details>
+
+<details>
+<summary> Subclass level metrics: </summary>
+
+1. Label-wise F1-score<br />
+<img align="center" style="padding:10px 0px 10px 0px; border-radius: 0%" src="../assets/Mouse_WB/HANN_FindMarkers/Ground_truth_subclass_HANN_WB_subclass_F1_score.png" />
+
+2. Confidence values for correctly and incorrectly assigned labels<br />
+<img align="center" style="padding:10px 0px 10px 0px; border-radius: 0%" src="../assets/Mouse_WB/HANN_FindMarkers/Ground_truth_subclass_HANN_WB_subclass_conf_box.png" />
+
+3. Label-wise recall<br />
+<img align="center" style="padding:10px 0px 10px 0px; border-radius: 0%" src="../assets/Mouse_WB/HANN_FindMarkers/Ground_truth_subclass_HANN_WB_subclass_recall.png" />
+
+4. Label-wise precision<br />
+<img align="center" style="padding:10px 0px 10px 0px; border-radius: 0%" src="../assets/Mouse_WB/HANN_FindMarkers/Ground_truth_subclass_HANN_WB_subclass_precision.png" />
+
+5. Confusion matrix (row-normalized)<br />
+<img align="center" style="padding:10px 0px 10px 0px; border-radius: 0%" src="../assets/Mouse_WB/HANN_FindMarkers/Ground_truth_subclass_HANN_WB_subclass_conf_mat.png" />
+
+</details>
+
+<details>
+<summary> Cluster metrics: </summary>
+
+1. Label-wise F1-score<br />
+<img align="center" style="padding:10px 0px 10px 0px; border-radius: 0%" src="../assets/Mouse_WB/HANN_FindMarkers/gt_cl_HANN_WB_all_F1_score.png" />
+
+2. Confidence values for correctly and incorrectly assigned labels<br />
+<img align="center" style="padding:10px 0px 10px 0px; border-radius: 0%" src="../assets/Mouse_WB/HANN_FindMarkers/gt_cl_HANN_WB_all_conf_box.png" />
+
+3. Label-wise recall<br />
+<img align="center" style="padding:10px 0px 10px 0px; border-radius: 0%" src="../assets/Mouse_WB/HANN_FindMarkers/gt_cl_HANN_WB_all_recall.png" />
+
+4. Label-wise precision<br />
+<img align="center" style="padding:10px 0px 10px 0px; border-radius: 0%" src="../assets/Mouse_WB/HANN_FindMarkers/gt_cl_HANN_WB_all_precision.png" />
+
+5. Confusion matrix (row-normalized)<br />
+<img align="center" style="padding:10px 0px 10px 0px; border-radius: 0%" src="../assets/Mouse_WB/HANN_FindMarkers/gt_cl_HANN_WB_all_conf_mat.png" />
+
+</details>
+
+<h3 id="sequencing-technology-effect-analysis">Sequencing technology effect analysis</h3>
+
+<p>Here we evaluate <code class="language-plaintext highlighter-rouge">HANN</code> at correctly predicting the Subclass label for multiple sequencing technologies.</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Query</th>
+      <th>Annotation</th>
+      <th>F1-score</th>
+      <th> </th>
+      <th>Annotation</th>
+      <th>F1-score</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>10X_cells_v3_AIBS</td>
+      <td>Subclass</td>
+      <td>0.971</td>
+      <td> </td>
+      <td>Cluster</td>
+      <td>0.853</td>
+    </tr>
+    <tr>
+      <td>10X_nuclei_v3_AIBS</td>
+      <td>Subclass</td>
+      <td>0.947</td>
+      <td> </td>
+      <td>Cluster</td>
+      <td>0.782</td>
+    </tr>
+    <tr>
+      <td>10X_nuclei_v3_Broad</td>
+      <td>Subclass</td>
+      <td>0.970</td>
+      <td> </td>
+      <td>Cluster</td>
+      <td>0.854</td>
+    </tr>
+    <tr>
+      <td>10X_cells_v2_AIBS</td>
+      <td>Subclass</td>
+      <td>0.976</td>
+      <td> </td>
+      <td>Cluster</td>
+      <td>0.855</td>
+    </tr>
+    <tr>
+      <td>10X_nuclei_v2_AIBS</td>
+      <td>Subclass</td>
+      <td>0.919</td>
+      <td> </td>
+      <td>Cluster</td>
+      <td>0.650</td>
+    </tr>
+    <tr>
+      <td>SmartSeq_cells_AIBS</td>
+      <td>Subclass</td>
+      <td>0.970</td>
+      <td> </td>
+      <td>Cluster</td>
+      <td>0.811</td>
+    </tr>
+    <tr>
+      <td>SmartSeq_nuclei_AIBS</td>
+      <td>Subclass</td>
+      <td>0.961</td>
+      <td> </td>
+      <td>Cluster</td>
+      <td>0.803</td>
+    </tr>
+  </tbody>
+</table>
+
+<p><img align="center" style="padding:10px 0px 10px 0px; border-radius: 0%" src="../assets/Mouse_WB/HANN_FindMarkers/Ground_truth_subclass_HANN_WB_subclass_cond_conf_box.png" /></p>
+
+<h3 id="recommendations-and-caveats">Recommendations and caveats</h3>
+<ul>
+  <li>At the <strong>Class</strong>, <strong>Neighborhood</strong>, and <strong>Subclass</strong> level, for high quality RNA-seq data - <code class="language-plaintext highlighter-rouge">HANN</code> makes few errors.</li>
+  <li><code class="language-plaintext highlighter-rouge">HANN</code> mapping robustly classify samples from multiple sequencing techologies which lead to changes in gene expression.</li>
+</ul>
+
+        
+      </section>
+
+      <footer class="page__meta">
+        
+        
+
+
+        
+
+
+      </footer>
+
+      
+
+      
+    </div>
+
+    
+  </article>
+
+  
+  
+</div>
+
+    </div>
+
+    
+
+    <div id="footer" class="page__footer">
+      <footer>
+        <!-- start custom footer snippets -->
+
+<!-- end custom footer snippets -->
+        <div class="page__footer-follow">
+  <ul class="social-icons">
+    
+
+    
+
+    
+      <li><a href="/feed.xml"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li>
+    
+  </ul>
+</div>
+
+<div class="page__footer-copyright">&copy; 2023 Mapping algorithm benchmarks. Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+
+      </footer>
+    </div>
+
+    
+  <script src="/assets/js/main.min.js"></script>
+
+
+
+
+
+
+
+
+
+
+  </body>
+</html>

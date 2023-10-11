@@ -1,0 +1,546 @@
+<!doctype html>
+<!--
+  Minimal Mistakes Jekyll Theme 4.24.0 by Michael Rose
+  Copyright 2013-2020 Michael Rose - mademistakes.com | @mmistakes
+  Free for personal and commercial use under the MIT license
+  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE
+-->
+<html lang="en" class="no-js">
+  <head>
+    <meta charset="utf-8">
+
+<!-- begin _includes/seo.html --><title>  Mapping algorithm benchmarks</title>
+<meta name="description" content="””">
+
+
+  <meta name="author" content="ReportCards">
+  
+
+
+<meta property="og:type" content="website">
+<meta property="og:locale" content="en_US">
+<meta property="og:site_name" content="Mapping algorithm benchmarks">
+<meta property="og:title" content="Mapping algorithm benchmarks">
+<meta property="og:url" content="/Human_reports/HANN_human.html">
+
+
+  <meta property="og:description" content="””">
+
+
+
+
+
+
+
+
+
+
+
+
+<link rel="canonical" href="/Human_reports/HANN_human.html">
+
+
+
+
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    
+      "@type": "Person",
+      "name": null,
+      "url": "/"
+    
+  }
+</script>
+
+
+
+
+
+
+
+<!-- end _includes/seo.html -->
+
+
+
+  <link href="/feed.xml" type="application/atom+xml" rel="alternate" title="Mapping algorithm benchmarks Feed">
+
+
+<!-- https://t.co/dKP3o1e -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+</script>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="/assets/css/main.css">
+<link rel="preload" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css"></noscript>
+
+
+
+    <!-- start custom head snippets -->
+
+<!-- insert favicons. use https://realfavicongenerator.net/ -->
+
+<!-- end custom head snippets -->
+
+  </head>
+
+  <body class="layout--single wide">
+    <nav class="skip-links">
+  <ul>
+    <li><a href="#site-nav" class="screen-reader-shortcut">Skip to primary navigation</a></li>
+    <li><a href="#main" class="screen-reader-shortcut">Skip to content</a></li>
+    <li><a href="#footer" class="screen-reader-shortcut">Skip to footer</a></li>
+  </ul>
+</nav>
+
+    <!--[if lt IE 9]>
+<div class="notice--danger align-center" style="margin: 0;">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience.</div>
+<![endif]-->
+
+    
+
+<div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+        
+        <a class="site-title" href="/">
+          Mapping algorithm benchmarks
+          
+        </a>
+        <ul class="visible-links"><li class="masthead__menu-item">
+              <a href="/">Overview</a>
+            </li><li class="masthead__menu-item">
+              <a href="/benchmarks/">Benchmarks</a>
+            </li><li class="masthead__menu-item">
+              <a href="/algorithms/">Algorithms</a>
+            </li><li class="masthead__menu-item">
+              <a href="/evaluation/">Evaluation</a>
+            </li></ul>
+        
+        <button class="greedy-nav__toggle hidden" type="button">
+          <span class="visually-hidden">Toggle menu</span>
+          <div class="navicon"></div>
+        </button>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+    </div>
+  </div>
+</div>
+
+
+    <div class="initial-content">
+      
+
+
+
+<div id="main" role="main">
+  
+  <div class="sidebar sticky">
+  
+
+
+<div itemscope itemtype="https://schema.org/Person">
+
+  
+    <div class="author__avatar">
+      
+        <img src="/assets/logo_mapping.png" alt="ReportCards" itemprop="image">
+      
+    </div>
+  
+
+  <div class="author__content">
+    
+      <h3 class="author__name" itemprop="name">ReportCards</h3>
+    
+    
+      <div class="author__bio" itemprop="description">
+        <p>Mapping Algorithms</p>
+
+      </div>
+    
+  </div>
+
+  <div class="author__urls-wrapper">
+    <button class="btn btn--inverse">Follow</button>
+    <ul class="author__urls social-icons">
+      
+
+      
+        
+          
+            <li><a href="/" rel="nofollow noopener noreferrer"><i class="fas fa-link" aria-hidden="true"></i><span class="label">Overview</span></a></li>
+          
+        
+          
+            <li><a href="/data/" rel="nofollow noopener noreferrer"><i class="fas fa-link" aria-hidden="true"></i><span class="label">Benchmarks</span></a></li>
+          
+        
+          
+            <li><a href="/algorithms/" rel="nofollow noopener noreferrer"><i class="fas fa-link" aria-hidden="true"></i><span class="label">Algorithms</span></a></li>
+          
+        
+          
+            <li><a href="/evaluation/" rel="nofollow noopener noreferrer"><i class="fas fa-link" aria-hidden="true"></i><span class="label">Evaluation</span></a></li>
+          
+        
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      <!--
+  <li>
+    <a href="http://link-to-whatever-social-network.com/user/" itemprop="sameAs" rel="nofollow noopener noreferrer">
+      <i class="fas fa-fw" aria-hidden="true"></i> Custom Social Profile Link
+    </a>
+  </li>
+-->
+    </ul>
+  </div>
+</div>
+
+  
+  </div>
+
+
+
+  <article class="page" itemscope itemtype="https://schema.org/CreativeWork">
+    <meta itemprop="headline" content="">
+    
+    
+    
+
+    <div class="page__inner-wrap">
+      
+        <header>
+          <h1 id="page-title" class="page__title" itemprop="headline">
+</h1>
+          
+
+
+        </header>
+      
+
+      <section class="page__content" itemprop="text">
+        
+        <h1 id="report-card-for-hann-on-human-sea-ad-benchmark">Report card for <code class="language-plaintext highlighter-rouge">HANN</code> on <code class="language-plaintext highlighter-rouge">Human SEA-AD</code> benchmark</h1>
+
+<h3 id="overview">Overview</h3>
+
+<p>The accuracy of cell type mapping using the Hierarchical approximate nearest neighbor (HANN) algorithm was evaluated against the SEA-AD human MTG benchmark.</p>
+
+<p>In summary, <code class="language-plaintext highlighter-rouge">HANN</code> was able to achieve <strong>strong accuracy</strong> at <strong>all</strong> resolution of the human MTG taxonomy containing donor-specific batch effects.</p>
+
+<ul>
+  <li>Summary:
+    <ul>
+      <li>Inputs <code class="language-plaintext highlighter-rouge">X</code> are log(CPM) normalized expression values of marker genes.</li>
+      <li>Hierarchy was encoded by Class, Subclass, Supertype.</li>
+      <li><code class="language-plaintext highlighter-rouge">Confidence</code> values were derived via bootstraping.</li>
+    </ul>
+  </li>
+  <li>Runtime: 3.03 Hours</li>
+  <li>Version: X.Y.Z</li>
+  <li>Repository: <a href="TBD">TBD</a></li>
+  <li>Publication: –</li>
+</ul>
+
+<table>
+  <thead>
+    <tr>
+      <th>Annotaion</th>
+      <th>F1-score</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Class</td>
+      <td>0.999</td>
+    </tr>
+    <tr>
+      <td>Subclass</td>
+      <td>0.985</td>
+    </tr>
+    <tr>
+      <td>Supertype</td>
+      <td>0.859</td>
+    </tr>
+  </tbody>
+</table>
+
+<h3 id="tasks">Tasks</h3>
+<ul>
+  <li>Primary tasks:
+    <ol>
+      <li>Classification of scRNA-seq samples into Supertypes.</li>
+      <li>Determining generalization of <code class="language-plaintext highlighter-rouge">HANN</code> classification to samples from new donors under varying degrees of Alzheimers pathology.</li>
+    </ol>
+  </li>
+  <li>Users: AIBS scientists and community mapping tool users.</li>
+  <li>Out of scope: Classification on other modalities (e.g. SMART-seq, Patch-seq, MERFISH), or regions (e.g. V1), or species (e.g. primate)</li>
+</ul>
+
+<h3 id="metrics">Metrics</h3>
+<ul>
+  <li>Accuracy</li>
+  <li>Precision, Recall, F1-score on validation set</li>
+</ul>
+
+<h3 id="reference-and-query-evaluation-data">Reference and query evaluation data</h3>
+<ul>
+  <li>Reference
+    <ul>
+      <li>Human MTG single nucleus 10xV3 dataset from aged healthy individuals.</li>
+      <li>Supertype and donor metadata provided for each reference sample.</li>
+    </ul>
+  </li>
+  <li>Query
+    <ul>
+      <li>Human MTG single nucleus 10xV3 data from donors of varying Alzheimers pathology.
+        <ul>
+          <li>No AD</li>
+          <li>Low</li>
+          <li>Intermediate</li>
+          <li>High</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+</ul>
+
+<h3 id="quantitative-analysis">Quantitative analysis</h3>
+
+<p>Here we evaluate <code class="language-plaintext highlighter-rouge">HANN</code> at predicting high quality samples for each of the query datasets from the human SEA-AD benchmark.</p>
+
+<details>
+<summary> Class metrics: </summary>
+
+1. Label-wise F1-score<br />
+<img align="center" style="padding:10px 0px 10px 0px; border-radius: 0%" src="../assets/human_SEA-AD/HANN/Class_HANN_all_F1_score.png" />
+
+2. Confidence values for correctly and incorrectly assigned labels<br />
+<img align="center" style="padding:10px 0px 10px 0px; border-radius: 0%" src="../assets/human_SEA-AD/HANN/Class_HANN_all_conf_box.png" />
+
+3. Label-wise recall<br />
+<img align="center" style="padding:10px 0px 10px 0px; border-radius: 0%" src="../assets/human_SEA-AD/HANN/Class_HANN_all_recall.png" />
+
+4. Label-wise precision<br />
+<img align="center" style="padding:10px 0px 10px 0px; border-radius: 0%" src="../assets/human_SEA-AD/HANN/Class_HANN_all_precision.png" />
+
+5. Confusion matrix (row-normalized)<br /><img align="center" style="padding:10px 0px 10px 0px; border-radius: 0%" src="../assets/human_SEA-AD/HANN/Class_HANN_all_conf_mat.png" />
+
+</details>
+
+<details>
+<summary> Subclass metrics: </summary>
+
+1. Label-wise F1-score<br />
+<img align="center" style="padding:10px 0px 10px 0px; border-radius: 0%" src="../assets/human_SEA-AD/HANN/Subclass_HANN_all_F1_score.png" />
+
+2. Confidence values for correctly and incorrectly assigned labels<br />
+<img align="center" style="padding:10px 0px 10px 0px; border-radius: 0%" src="../assets/human_SEA-AD/HANN/Subclass_HANN_all_conf_box.png" />
+
+3. Label-wise recall<br />
+<img align="center" style="padding:10px 0px 10px 0px; border-radius: 0%" src="../assets/human_SEA-AD/HANN/Subclass_HANN_all_recall.png" />
+
+4. Label-wise precision<br />
+<img align="center" style="padding:10px 0px 10px 0px; border-radius: 0%" src="../assets/human_SEA-AD/HANN/Subclass_HANN_all_precision.png" />
+
+5. Confusion matrix (row-normalized)<br />
+<img align="center" style="padding:10px 0px 10px 0px; border-radius: 0%" src="../assets/human_SEA-AD/HANN/Subclass_HANN_all_conf_mat.png" />
+
+</details>
+
+<details>
+<summary> Supertype metrics: </summary>
+
+1. Label-wise F1-score<br />
+<img align="center" style="padding:10px 0px 10px 0px; border-radius: 0%" src="../assets/human_SEA-AD/HANN/Supertype_HANN_all_F1_score.png" />
+
+2. Confidence values for correctly and incorrectly assigned labels<br />
+<img align="center" style="padding:10px 0px 10px 0px; border-radius: 0%" src="../assets/human_SEA-AD/HANN/Supertype_HANN_all_conf_box.png" />
+
+3. Label-wise recall<br />
+<img align="center" style="padding:10px 0px 10px 0px; border-radius: 0%" src="../assets/human_SEA-AD/HANN/Supertype_HANN_all_recall.png" />
+
+4. Label-wise precision<br />
+<img align="center" style="padding:10px 0px 10px 0px; border-radius: 0%" src="../assets/human_SEA-AD/HANN/Supertype_HANN_all_precision.png" />
+
+5. Confusion matrix (row-normalized)<br />
+<img align="center" style="padding:10px 0px 10px 0px; border-radius: 0%" src="../assets/human_SEA-AD/HANN/Supertype_HANN_all_conf_mat.png" />
+
+</details>
+
+<h3 id="donor-effect-analysis">Donor effect analysis</h3>
+
+<p>Here we evaluate <code class="language-plaintext highlighter-rouge">HANN</code> at correctly predicting the Subclass label for increasingly sever Alzheimers pathology.
+<img align="center" style="padding:10px 0px 10px 0px; border-radius: 0%" src="../assets/human_SEA-AD/HANN/Subclass_HANN_cond_conf_box.png" /></p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Annotation</th>
+      <th>Query</th>
+      <th>F1-score</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Supertype</td>
+      <td>Reference_MTG_RNASeq_benchmark</td>
+      <td>0.988</td>
+    </tr>
+    <tr>
+      <td>Supertype</td>
+      <td>Not_AD_MTG_RNASeq_benchmark</td>
+      <td>0.988</td>
+    </tr>
+    <tr>
+      <td>Supertype</td>
+      <td>Low_MTG_RNASeq_benchmark</td>
+      <td>0.987</td>
+    </tr>
+    <tr>
+      <td>Supertype</td>
+      <td>Intermediate_MTG_RNASeq_benchmark</td>
+      <td>0.985</td>
+    </tr>
+    <tr>
+      <td>Supertype</td>
+      <td>High_MTG_RNASeq_benchmark</td>
+      <td>0.983</td>
+    </tr>
+  </tbody>
+</table>
+
+<h3 id="low-quality-sample-analysis">Low quality sample analysis</h3>
+
+<p>Here we evaluate how <code class="language-plaintext highlighter-rouge">HANN</code> predicts labels for low-quality samples in the query data with predefined QC flags.
+<img align="center" style="padding:10px 0px 10px 0px; border-radius: 0%" src="../assets/human_SEA-AD/HANN/Supertype_HANN_low_qc_conf_mat.png" /></p>
+
+<p>And how confident the model is when predicting labels for high and low quality data for each subclass.
+<img align="center" style="padding:10px 0px 10px 0px; border-radius: 0%" src="../assets/human_SEA-AD/FLAT/Subclass_HANN_quality_conf_box.png" /></p>
+
+<h3 id="recommendations-and-caveats">Recommendations and caveats</h3>
+<ul>
+  <li>At the <strong>Class</strong> and <strong>Subclass</strong> level, for high quality RNA-seq data - <code class="language-plaintext highlighter-rouge">HANN</code> makes few errors.</li>
+  <li><code class="language-plaintext highlighter-rouge">HANN</code> robustly classify samples under varying conditions imparting donor and disease specific changes in gene expression.</li>
+  <li>When <code class="language-plaintext highlighter-rouge">HANN</code> makes a mistake at the <strong>Supertype</strong> level, the predicted label is typically within the same <strong>Subclass</strong>.</li>
+</ul>
+
+        
+      </section>
+
+      <footer class="page__meta">
+        
+        
+
+
+        
+
+
+      </footer>
+
+      
+
+      
+    </div>
+
+    
+  </article>
+
+  
+  
+</div>
+
+    </div>
+
+    
+
+    <div id="footer" class="page__footer">
+      <footer>
+        <!-- start custom footer snippets -->
+
+<!-- end custom footer snippets -->
+        <div class="page__footer-follow">
+  <ul class="social-icons">
+    
+
+    
+
+    
+      <li><a href="/feed.xml"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li>
+    
+  </ul>
+</div>
+
+<div class="page__footer-copyright">&copy; 2023 Mapping algorithm benchmarks. Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+
+      </footer>
+    </div>
+
+    
+  <script src="/assets/js/main.min.js"></script>
+
+
+
+
+
+
+
+
+
+
+  </body>
+</html>
