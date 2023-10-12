@@ -8,14 +8,14 @@ author: ReportCards
 
 ## Overview
 
-Detailed model evaluation on curated benchmark datasets are stored here to inform users about model biases and accuracy at mapping labels using Allen Institute taxonomies as reference.
+Detailed model evaluation on curated benchmark datasets are stored here to inform users about mapping algorithm biases and accuracies at mapping cell type labels using Allen Institute taxonomies as references.
 
 ## Evaluations: `Hierarchical Correlation Mapping (HANN)`
 
 Model | Benchmark | Runtime 
 --- | --- | --- 
-[HANN](Human_reports/HANN_human.md)    | human MTG SEA-AD | 3 Hours 
 [HANN](Mouse_reports/HANN_mouse_WB.md) | mouse WB | 0.76 Hours 
+[HANN](Human_reports/HANN_human.md)    | human MTG SEA-AD | 3 Hours 
 
 ## Evaluations: `Hierarchical Correlation Mapping with Finding Markers`
 
