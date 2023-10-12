@@ -6,13 +6,13 @@ author_profile: true
 author: ReportCards
 ---
 
-# Report card for `HANN` on `Mouse whole brain (cortex)` benchmark
+# Report card for `Heirarchical Correlation Mapping (FindMarkers)` on `Mouse whole brain (cortex)` benchmark
 
 ### Overview
 
 The accuracy of cell type mapping using the Hierarchical approximate nearest neighbor (HANN) algorithm was evaluated against the mouse whole brain (WB) cortical taxonomy.
 
-In summary, `HANN` was able to achieve **strong accuracy** at **class, neighborhood and subclass** resolution of the mouse WB cortical taxonomy containing sequencing technology batch effects.
+In summary, `Heirarchical Correlation Mapping (FindMarkers)` was able to achieve **strong accuracy** at **class, neighborhood and subclass** resolution of the mouse WB cortical taxonomy containing sequencing technology batch effects.
 
 - Summary:
     - Inputs `X` are log(CPM) normalized expression values of marker genes.
@@ -26,7 +26,7 @@ In summary, `HANN` was able to achieve **strong accuracy** at **class, neighborh
 ### Tasks
  - Primary tasks:
     1. Classification of scRNA-seq samples into whole brain clusters.
-    2. Determining generalization of `HANN` classification to samples from multiple sequencing technologies.
+    2. Determining generalization of `Heirarchical Correlation Mapping (FindMarkers)` classification to samples from multiple sequencing technologies.
  - Users: AIBS scientists and community mapping tool users.
  - Out of scope: Classification on other modalities (e.g. SMART-seq, Patch-seq, MERFISH), or regions (e.g. V1), or species (e.g. primate)
 
@@ -50,7 +50,7 @@ In summary, `HANN` was able to achieve **strong accuracy** at **class, neighborh
 
 ### Quantitative analysis
 
-Here we evaluate `HANN` at predicting high quality samples for each of the query datasets. Each annotation level can be expanded to reveal addition evaluation metrics.
+Here we evaluate `Heirarchical Correlation Mapping (FindMarkers)` at predicting high quality samples for each of the query datasets. Each annotation level can be expanded to reveal addition evaluation metrics.
 
 Annotaion | F1-score
 --- | ---
@@ -141,7 +141,7 @@ Cluster | 0.711
 
 ### Sequencing technology effect analysis
 
-Here we evaluate `HANN` at correctly predicting the Subclass label for multiple sequencing technologies.
+Here we evaluate `Heirarchical Correlation Mapping (FindMarkers)` at correctly predicting the Subclass label for multiple sequencing technologies.
 
 Query | Annotation | F1-score | | Annotation | F1-score          
 --- | --- | --- | --- | --- | ---                  
@@ -156,5 +156,5 @@ SmartSeq_nuclei_AIBS | Subclass | 0.961 | | Cluster | 0.803
 <img align='center' style="padding:10px 0px 10px 0px; border-radius: 0%" src="../assets/Mouse_WB/HANN_FindMarkers/Ground_truth_subclass_HANN_WB_subclass_cond_conf_box.png"/>
 
 ### Recommendations and caveats
- - At the **Class**, **Neighborhood**, and **Subclass** level, for high quality RNA-seq data - `HANN` makes few errors.
- - `HANN` mapping robustly classify samples from multiple sequencing techologies which lead to changes in gene expression.
+ - At the **Class**, **Neighborhood**, and **Subclass** level, for high quality RNA-seq data - `Heirarchical Correlation Mapping (FindMarkers)` makes few errors.
+ - `Heirarchical Correlation Mapping (FindMarkers)` mapping robustly classify samples from multiple sequencing techologies which lead to changes in gene expression.

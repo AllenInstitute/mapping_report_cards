@@ -6,13 +6,13 @@ author_profile: true
 author: ReportCards
 ---
 
-# Report card for `FLAT` on `Human SEA-AD` benchmark
+# Report card for `Correlation Mapping` on `Human SEA-AD` benchmark
 
 ### Overview
 
-The accuracy of cell type mapping using the flat correlation (FLAT) algorithm was evaluated against the SEA-AD human MTG benchmark.
+The accuracy of cell type mapping using the correlation algorithm was evaluated against the SEA-AD human MTG benchmark.
 
-In summary, `FLAT` was able to achieve **strong accuracy** at **all** resolution of the human MTG taxonomy containing donor-specific batch effects.
+In summary, `Correlation Mapping` was able to achieve **strong accuracy** at **all** resolution of the human MTG taxonomy containing donor-specific batch effects.
 
 - Summary:
     - Inputs `X` are log(CPM) normalized expression values of marker genes.
@@ -32,7 +32,7 @@ Supertype | 0.871
 ### Tasks
  - Primary tasks:
     1. Classification of scRNA-seq samples into Supertypes.
-    2. Determining generalization of `FLAT` classification to samples from new donors under varying degrees of Alzheimers pathology.
+    2. Determining generalization of `Correlation Mapping` classification to samples from new donors under varying degrees of Alzheimers pathology.
  - Users: AIBS scientists and community mapping tool users.
  - Out of scope: Classification on other modalities (e.g. SMART-seq, Patch-seq, MERFISH), or regions (e.g. V1), or species (e.g. primate)
 
@@ -53,7 +53,7 @@ Supertype | 0.871
 
 ### Quantitative analysis
 
-Here we evaluate `FLAT` at predicting high quality samples for each of the query datasets from the human SEA-AD benchmark.
+Here we evaluate `Correlation Mapping` at predicting high quality samples for each of the query datasets from the human SEA-AD benchmark.
 
 
 <details>
@@ -117,7 +117,7 @@ Here we evaluate `FLAT` at predicting high quality samples for each of the query
 
 ### Donor effect analysis
 
-Here we evaluate `FLAT` at correctly predicting the Subclass label for increasingly sever Alzheimers pathology.
+Here we evaluate `Correlation Mapping` at correctly predicting the Subclass label for increasingly sever Alzheimers pathology.
 <img align='center' style="padding:10px 0px 10px 0px; border-radius: 0%" src="../assets/human_SEA-AD/FLAT/Subclass_FLAT_cond_conf_box.png"/>
 
 Annotation | Query | F1-score
@@ -130,13 +130,13 @@ Supertype | High_MTG_RNASeq_benchmark | 0.983
 
 ### Low quality sample analysis
 
-Here we evaluate how `FLAT` predicts labels for low-quality samples in the query data with predefined QC flags.
+Here we evaluate how `Correlation Mapping` predicts labels for low-quality samples in the query data with predefined QC flags.
 <img align='center' style="padding:10px 0px 10px 0px; border-radius: 0%" src="../assets/human_SEA-AD/FLAT/Supertype_FLAT_low_qc_conf_mat.png"/>
 
 And how confident the model is when predicting labels for high and low quality data for each subclass.
 <img align='center' style="padding:10px 0px 10px 0px; border-radius: 0%" src="../assets/human_SEA-AD/FLAT/Subclass_FLAT_quality_conf_box.png"/>
 
 ### Recommendations and caveats
- - At the **Class** and **Subclass** level, for high quality RNA-seq data - `FLAT` makes few errors.
- - `FLAT` robustly classify samples under varying conditions imparting donor and disease specific changes in gene expression.
- - When `FLAT` makes a mistake at the **Supertype** level, the predicted label is typically within the same **Subclass**.
+ - At the **Class** and **Subclass** level, for high quality RNA-seq data - `Correlation Mapping` makes few errors.
+ - `Correlation Mapping` robustly classify samples under varying conditions imparting donor and disease specific changes in gene expression.
+ - When `Correlation Mapping` makes a mistake at the **Supertype** level, the predicted label is typically within the same **Subclass**.
