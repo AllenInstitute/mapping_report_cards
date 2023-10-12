@@ -17,7 +17,7 @@ Model | Benchmark | Runtime
 [HANN](Mouse_reports/HANN_mouse_WB.md) | mouse WB | 0.76 Hours 
 [HANN](Human_reports/HANN_human.md)    | human MTG SEA-AD | 3 Hours 
 
-## Evaluations: `Hierarchical Correlation Mapping with Finding Markers`
+## Evaluations: `Hierarchical Correlation Mapping with Finding Markers (HANN (FindMarkers))`
 
 Model | Benchmark | Runtime 
 --- | --- | --- 
