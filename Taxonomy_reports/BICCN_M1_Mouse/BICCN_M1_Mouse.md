@@ -6,7 +6,7 @@ author_profile: true
 author: ReportCards
 ---
 
-# Report card for `Heirarchical Correlation Mapping` on `Mouse whole brain (cortex)` benchmark
+# Report card for `Correlation, Tree, and Seurat Mapping` on `Mouse necortex` benchmark
 
 ### Overview
 
