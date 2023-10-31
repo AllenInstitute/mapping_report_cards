@@ -6,7 +6,7 @@ author_profile: true
 author: ReportCards
 ---
 
-# Report card for `Correlation, Tree, and Seurat Mapping` on `Human necortex` benchmark
+# Report card for `Correlation, Tree, and Seurat Mapping` on `Human motor cortex (_Zemke et al. 2023_)` benchmark
 
 ### Overview
 
