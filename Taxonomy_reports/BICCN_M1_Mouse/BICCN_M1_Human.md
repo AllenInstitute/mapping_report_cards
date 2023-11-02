@@ -22,7 +22,6 @@ Cluster Correlation Mapping | 0.782
 Cluster Tree Mapping | 0.758
 Cluster Seurat Mapping | 0.981
 
-<details>
 <summary> Cluster level metrics - Correlation mapping: </summary>
 
 1. Label-wise F1-score<br>
@@ -34,10 +33,7 @@ Cluster Seurat Mapping | 0.981
 3. Confusion matrix (row-normalized)<br>
 <img align='center' style="padding:10px 0px 10px 0px; border-radius: 0%" src="../../assets/biccn/human/human_corr_figure_5.png"/>
 
-</details>
 
-
-<details>
 <summary> Cluster level metrics - Tree mapping: </summary>
 
 1. Label-wise F1-score<br>
@@ -49,9 +45,6 @@ Cluster Seurat Mapping | 0.981
 3. Confusion matrix (row-normalized)<br>
 <img align='center' style="padding:10px 0px 10px 0px; border-radius: 0%" src="../../assets/biccn/human/human_tree_figure_5.png"/>
 
-</details>
-
-<details>
 <summary> Cluster level metrics - Seurat mapping: </summary>
 
 1. Label-wise F1-score<br>
@@ -63,4 +56,3 @@ Cluster Seurat Mapping | 0.981
 3. Confusion matrix (row-normalized)<br>
 <img align='center' style="padding:10px 0px 10px 0px; border-radius: 0%" src="../../assets/biccn/human/human_seurat_figure_5.png"/>
 
-</details>
