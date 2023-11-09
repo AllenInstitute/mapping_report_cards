@@ -18,9 +18,9 @@ The analysis evaluates the predictions of `correlation`, `tree`, and `Seurat` ma
 
 Annotaion | F1-score
 --- | ---
-Cluster Correlation Mapping | 
-Cluster Tree Mapping | 
-Cluster Seurat Mapping | 
+Cluster Correlation Mapping | 0.719
+Cluster Tree Mapping | 0.688
+Cluster Seurat Mapping | 0.973
 
 ## Correlation Mapping 
 
