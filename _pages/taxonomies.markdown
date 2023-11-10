@@ -27,4 +27,6 @@ Taxonomy | Study | Runtime
 [CrossAreal ANG](../Taxonomy_reports/CrossAreal/CrossAreal_ANG.md) | Jorstad et al. 2023 | 0.740 Hours
 [CrossAreal DLPFC](../Taxonomy_reports/CrossAreal/CrossAreal_DLPFC.md) | Jorstad et al. 2023 | 0.858 Hours
 [CrossAreal M1](../Taxonomy_reports/CrossAreal/CrossAreal_M1.md) | Jorstad et al. 2023 | 1.013 Hours
-[CrossAreal_MTG](../Taxonomy_reports/CrossAreal/CrossAreal_MTG.md) | Jorstad et al. 2023 | 1.078 Hours
+[CrossAreal MTG](../Taxonomy_reports/CrossAreal/CrossAreal_MTG.md) | Jorstad et al. 2023 | 1.078 Hours
+[CrossAreal S1](../Taxonomy_reports/CrossAreal/CrossAreal_S1.md) | Jorstad et al. 2023 | 1.025 Hours
+[CrossAreal V1](../Taxonomy_reports/CrossAreal/CrossAreal_V1.md) | Jorstad et al. 2023 | 1.429 Hours
