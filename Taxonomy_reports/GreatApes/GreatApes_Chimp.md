@@ -6,15 +6,15 @@ author_profile: true
 author: ReportCards
 ---
 
-# Report card for `Correlation, Tree, and Seurat Mapping` on `Chimp neocortex (Jorstad et al. 2023)`
+# Report card for `Correlation and Tree Mapping` on `Chimp neocortex (Jorstad et al. 2023)`
 
 ### Overview
 
-A taxonomy was initially built using the chimp neocortex single nucleus dataset. In building the taxonomy, 1000 binary marker genes were selected based on their gene expression from the single-cell transcriptome. Subsequently, the dataset was mapped to itself, termed self-projection, for evaluating the ideal performances of correlation, tree, and seurat mapping algorithms.
+A taxonomy was initially built using the chimp neocortex single nucleus dataset. In building the taxonomy, 1000 binary marker genes were selected based on their gene expression from the single-cell transcriptome. Subsequently, the dataset was mapped to itself, termed self-projection, for evaluating the ideal performances of correlation and tree mapping algorithms.
 
 ### Quantitative analysis
 
-The analysis evaluates the predictions of `correlation`, `tree`, and `Seurat` mappings in determining cluster labels in a self-projection evaluation.
+The analysis evaluates the predictions of `correlation` and `tree` mappings in determining cluster labels in a self-projection evaluation.
 
 Annotaion | F1-score
 --- | ---
