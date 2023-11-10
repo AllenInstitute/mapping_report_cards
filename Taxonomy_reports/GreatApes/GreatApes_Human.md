@@ -28,29 +28,29 @@ Cluster Seurat Mapping | 0.997
 <img align='center' style="padding:10px 0px 10px 0px; border-radius: 0%" src="../../assets/greatapes/human/human_corr_figure_1.png"/>
 
 2. Confidence values for correctly and incorrectly assigned labels<br>
-<img align='center' style="padding:10px 0px 10px 0px; border-radius: 0%" src="../../assets/biccn/human/human_corr_figure_2.png"/>
+<img align='center' style="padding:10px 0px 10px 0px; border-radius: 0%" src="../../assets/greatapes/human/human_corr_figure_2.png"/>
 
 3. Confusion matrix (row-normalized)<br>
-<img align='center' style="padding:10px 0px 10px 0px; border-radius: 0%" src="../../assets/biccn/human/human_corr_figure_3.png"/>
+<img align='center' style="padding:10px 0px 10px 0px; border-radius: 0%" src="../../assets/greatapes/human/human_corr_figure_3.png"/>
 
 ## Tree Mapping 
 
 1. Label-wise F1-score<br>
-<img align='center' style="padding:10px 0px 10px 0px; border-radius: 0%" src="../../assets/biccn/human/human_tree_figure_1.png"/>
+<img align='center' style="padding:10px 0px 10px 0px; border-radius: 0%" src="../../assets/greatapes/human/human_tree_figure_1.png"/>
 
 2. Confidence values for correctly and incorrectly assigned labels<br>
-<img align='center' style="padding:10px 0px 10px 0px; border-radius: 0%" src="../../assets/biccn/human/human_tree_figure_2.png"/>
+<img align='center' style="padding:10px 0px 10px 0px; border-radius: 0%" src="../../assets/greatapes/human/human_tree_figure_2.png"/>
 
 3. Confusion matrix (row-normalized)<br>
-<img align='center' style="padding:10px 0px 10px 0px; border-radius: 0%" src="../../assets/biccn/human/human_tree_figure_3.png"/>
+<img align='center' style="padding:10px 0px 10px 0px; border-radius: 0%" src="../../assets/greatapes/human/human_tree_figure_3.png"/>
 
 ## Seurat mapping
 
 1. Label-wise F1-score<br>
-<img align='center' style="padding:10px 0px 10px 0px; border-radius: 0%" src="../../assets/biccn/human/human_seurat_figure_1.png"/>
+<img align='center' style="padding:10px 0px 10px 0px; border-radius: 0%" src="../../assets/greatapes/human/human_seurat_figure_1.png"/>
 
 2. Confidence values for correctly and incorrectly assigned labels<br>
-<img align='center' style="padding:10px 0px 10px 0px; border-radius: 0%" src="../../assets/biccn/human/human_seurat_figure_2.png"/>
+<img align='center' style="padding:10px 0px 10px 0px; border-radius: 0%" src="../../assets/greatapes/human/human_seurat_figure_2.png"/>
 
 3. Confusion matrix (row-normalized)<br>
-<img align='center' style="padding:10px 0px 10px 0px; border-radius: 0%" src="../../assets/biccn/human/human_seurat_figure_3.png"/>
+<img align='center' style="padding:10px 0px 10px 0px; border-radius: 0%" src="../../assets/greatapes/human/human_seurat_figure_3.png"/>
