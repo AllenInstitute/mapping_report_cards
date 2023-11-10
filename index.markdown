@@ -31,6 +31,10 @@ Model | Benchmark | Runtime
 [CORR](Human_reports/FLAT_human.md)    | human MTG SEA-AD | 1.8 Hours 
 [CORR](Mouse_reports/FLAT_mouse_WB.md) | mouse WB | 0.36 Hours 
 
+## Taxonomy Evaluations: `Correlation, Tree, and Seurat Mappings`
+
+[Taxonomies](taxonomies)
+
 ## Benchmarks
 More details about the benchmark data can be found [here](LINK). (Link broken until data cards setup)
 

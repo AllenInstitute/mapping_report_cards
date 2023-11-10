@@ -13,5 +13,7 @@ ReportCards:
       url: /algorithms/
     - label: "Evaluation"
       url: /evaluation/
+    - label: "Taxonomies"
+      url: /taxonomies/
     # - label: "Leaderboard"
     #   url: https://google.com
