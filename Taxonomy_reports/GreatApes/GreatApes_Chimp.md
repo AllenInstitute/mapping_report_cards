@@ -42,14 +42,3 @@ Cluster Tree Mapping | 0.868
 
 3. Confusion matrix (row-normalized)<br>
 <img align='center' style="padding:10px 0px 10px 0px; border-radius: 0%" src="../../assets/greatapes/chimp/chimp_tree_figure_3.png"/>
-
-## Seurat mapping
-
-1. Label-wise F1-score<br>
-<img align='center' style="padding:10px 0px 10px 0px; border-radius: 0%" src="../../assets/greatapes/chimp/chimp_seurat_figure_1.png"/>
-
-2. Confidence values for correctly and incorrectly assigned labels<br>
-<img align='center' style="padding:10px 0px 10px 0px; border-radius: 0%" src="../../assets/greatapes/chimp/chimp_seurat_figure_2.png"/>
-
-3. Confusion matrix (row-normalized)<br>
-<img align='center' style="padding:10px 0px 10px 0px; border-radius: 0%" src="../../assets/greatapes/chimp/chimp_seurat_figure_3.png"/>
