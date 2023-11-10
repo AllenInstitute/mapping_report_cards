@@ -33,7 +33,7 @@ Model | Benchmark | Runtime
 
 ## Taxonomy Evaluations: `Correlation, Tree, and Seurat Mappings`
 
-[Taxonomies](Taxonomy_reports/Taxonomy_reports.md)
+[Taxonomies](taxonomies)
 
 ## Benchmarks
 More details about the benchmark data can be found [here](LINK). (Link broken until data cards setup)
