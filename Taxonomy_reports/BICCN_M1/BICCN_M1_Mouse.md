@@ -10,7 +10,7 @@ author: ReportCards
 
 ### Overview
 
-A taxonomy was initially built using the BICCN's mouse motor cortex single nucleus 10x Multiome dataset. Subsequently, the dataset was mapped to itself, termed self-projection, for evaluating the ideal performances of correlation, tree, and seurat mapping algorithms.
+A taxonomy was initially built using the BICCN's mouse motor cortex single nucleus 10x Multiome dataset. In building the taxonomy, 1000 binary marker genes were selected based on their gene expression from the single-cell transcriptome. Subsequently, the dataset was mapped to itself, termed self-projection, for evaluating the ideal performances of correlation, tree, and seurat mapping algorithms.
 
 ### Quantitative analysis
 
