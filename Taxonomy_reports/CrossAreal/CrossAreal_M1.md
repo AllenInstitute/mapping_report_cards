@@ -6,11 +6,11 @@ author_profile: true
 author: ReportCards
 ---
 
-# Report card for `Correlation and Tree Mapping` on `Motor Cortex (M1) (Jorstad et al. 2023)`
+# Report card for `Correlation and Tree Mapping` on `Motor (M1) neocortical area (Jorstad et al. 2023)`
 
 ### Overview
 
-A taxonomy was initially built using the Motor Cortex (M1) single nucleus dataset. In building the taxonomy, 1000 binary marker genes were selected based on their gene expression from the single-cell transcriptome. Subsequently, the dataset was mapped to itself, termed self-projection, for evaluating the ideal performances of correlation and tree mapping algorithms.
+A taxonomy was initially built using the Motor (M1) neocortical area single nucleus dataset. In building the taxonomy, 1000 binary marker genes were selected based on their gene expression from the single-cell transcriptome. Subsequently, the dataset was mapped to itself, termed self-projection, for evaluating the ideal performances of correlation and tree mapping algorithms.
 
 ### Quantitative analysis
 
