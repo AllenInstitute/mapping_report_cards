@@ -31,7 +31,7 @@ Model | Benchmark | Runtime
 [CORR](Human_reports/FLAT_human.md)    | human MTG SEA-AD | 1.8 Hours 
 [CORR](Mouse_reports/FLAT_mouse_WB.md) | mouse WB | 0.36 Hours 
 
-## Taxonomy Evaluations: `Correlation, Tree, and Seurat Mappings`
+<!-- ## Taxonomy Evaluations: `Correlation, Tree, and Seurat Mappings`
 
 [Taxonomies](taxonomies)
 
@@ -42,4 +42,4 @@ More details about the benchmark data can be found [here](LINK). (Link broken un
 More details about the models benchmarked can be found [here](LINK). (Link broken until model cards setup)
 
 ## Scripts
-The python scripts to produce the model report cards are hosted on the Allen Institute bmark repo.
+The python scripts to produce the model report cards are hosted on the Allen Institute bmark repo. -->
