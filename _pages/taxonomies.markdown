@@ -2,7 +2,7 @@
 layout: single
 classes: wide
 title: Taxonomy Evaluations
-permalink: /algorithms/
+permalink: /taxonomies/
 author_profile: true
 author: ReportCards
 ---
