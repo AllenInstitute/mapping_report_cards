@@ -1,13 +1,11 @@
 ---
 layout: single
 classes: wide
-title: Taxonomy Evaluations
+title: Report Cards for Taxonomy Mapping
 permalink: /taxonomies/
 author_profile: true
 author: ReportCards
 ---
-
-# Report Cards for Taxonomy Mappings
 
 ## Overview
 
