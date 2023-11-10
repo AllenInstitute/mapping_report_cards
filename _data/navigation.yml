@@ -7,5 +7,7 @@ main:
     url: /algorithms/
   - title: "Evaluation"
     url: /evaluation/
+  - title: "Taxonomies"
+    url: /taxonomies/
   # - title: "Leaderboard"
   #   url: /leaderboard/
